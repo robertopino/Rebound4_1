@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- FONT AWESOME KIT -->
+    <script src="https://kit.fontawesome.com/d017928d7b.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Rebound Módulo 4 Sesión 1: EasyPago</title>
+</head>
+<body>
+    <main>
+      <h1><i class="fa-light fa-wallet"></i> EASYPAGO</h1>
+
+      <form>
+        <div class="inputs">
+          <div class="form-group">
+            <label for="monto">¿Cuánto tienes que pagar?</label>
+            <input type="text" name="monto" id="monto" />
+          </div>
+          <div class="form-group">
+            <label for="interes">¿Cuánto interés(%) debes pagar?</label>
+            <input type="text" name="interes" id="interes" />
+          </div>
+          <div class="form-group">
+            <label for="cuotas">¿En cuántas cuotas puedes pagarlo?</label>
+            <input type="text" name="cuotas" id="cuotas" />
+          </div>
+        </div>
+        <button type="submit">¿Cómo lo pago?</button>
+      </form>
+
+      <h2 id="mensaje"></h2>
+    </main>
+
+    <!-- SCRIPTS -->
+    <script src="./script.js"></script>
+
+</body>
+</html>
